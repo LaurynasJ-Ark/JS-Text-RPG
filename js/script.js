@@ -303,7 +303,6 @@ function pick(guess) {
     for (let i = 1; i < 10; i++) {
         text.innerText += numbers[i] + "\n"
     }
-    //This seems stupid because it is a chance which either rewards or punishes a player for no reason
     if (numbers.includes(guess)) {
         text.innerText += "Right! You win 20 gold!"
         gold += 20
